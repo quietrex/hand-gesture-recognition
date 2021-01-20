@@ -11,10 +11,11 @@ pip install -r requirement.txt
 ### create your own hand dataset with command:
 ```bash
 python create_ds.py --pose stop --size 128
-```
-### change poses.txt to your hand class
 
-### create your own augmentation in augment.py
+change poses.txt to your hand class
+
+create your own augmentation in augment.py
+```
 
 ### train your model with command:
 ```bash
@@ -29,6 +30,5 @@ python cnn\model_training.py --model hand_detector --epoch 15
 ```
 
 ### if you want to inference it with web cam on flask:
-```bash
 do refer [previous post](https://github.com/quietrex/hand_gesture_recognition_flask)
-```
+
